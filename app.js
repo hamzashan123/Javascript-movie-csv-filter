@@ -1,5 +1,5 @@
-d3.csv("movies.csv").then(function (data) {
-//   d3.csv("job.csv").then(function (data) {
+//d3.csv("movies.csv").then(function (data) {
+   d3.csv("job.csv").then(function (data) {
    console.log(data);
 
   var movies = data;
